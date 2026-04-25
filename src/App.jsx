@@ -79,7 +79,7 @@ function App() {
 
     try {
       // Create WhatsApp message
-      const whatsappNumber = '919619262139'; // +91 96192 62139 without + and spaces
+      const whatsappNumber = '919981333391'; // +91 9998133391 without + and spaces
       const message = encodeURIComponent(`Hello Kalagiri!\n\nName: ${formData.name}\nMessage: ${formData.message}`);
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
       
@@ -102,12 +102,12 @@ function App() {
   return (
     <main className="page-shell" ref={sceneRef}>
       <div className="scene">
-        <img src="/src/assets/Kalagiri_Round Logo.png" alt="Kalagiri logo" className="logo-badge" />
+        <img src="/Kalagiri_Round Logo.png" alt="Kalagiri logo" className="logo-badge" />
 
         <section className="hero-panel">
           <div className="hero-copy">
             <img 
-              src="/src/assets/Kalagiri_Logo.png" 
+              src="/Kalagiri_Logo.png" 
               alt="कलागिरी" 
               className={isMouseInWindow ? 'pause-floating' : ''}
               style={{
@@ -175,7 +175,7 @@ function App() {
                     <p>Failed to open WhatsApp.</p>
                     <p>Please message us directly at:</p>
                     <a 
-                      href="https://wa.me/919619262139" 
+                      href="https://wa.me/919981333391" 
                       className="email-link"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -184,7 +184,7 @@ function App() {
                         closeModal();
                       }}
                     >
-                      +91 96192 62139
+                      +91 9998133391
                     </a>
                   </div>
                 )}
