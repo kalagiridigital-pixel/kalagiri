@@ -79,7 +79,7 @@ function App() {
 
     try {
       // Create WhatsApp message
-      const whatsappNumber = '919981333391'; // +91 9998133391 without + and spaces
+      const whatsappNumber = '919998133391'; // +91 9998133391 with country code
       const message = encodeURIComponent(`Hello Kalagiri!\n\nName: ${formData.name}\nMessage: ${formData.message}`);
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
       
@@ -175,7 +175,7 @@ function App() {
                     <p>Failed to open WhatsApp.</p>
                     <p>Please message us directly at:</p>
                     <a 
-                      href="https://wa.me/919981333391" 
+                      href="https://wa.me/9199998133391" 
                       className="email-link"
                       target="_blank"
                       rel="noopener noreferrer"
